@@ -1,0 +1,4 @@
+com\mmacedo\springboot2\controller\AnimeController.class
+com\mmacedo\springboot2\domain\Anime.class
+com\mmacedo\springboot2\ApplicationStart.class
+com\mmacedo\springboot2\util\DateUtil.class
