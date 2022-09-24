@@ -1,7 +1,8 @@
-package com.mmacedo.springboot2.controller;
+package com.mmacedo.springboot2essentials.controller;
 
-import com.mmacedo.springboot2.domain.Anime;
-import com.mmacedo.springboot2.util.DateUtil;
+
+import com.mmacedo.springboot2essentials.domain.Anime;
+import com.mmacedo.springboot2essentials.util.DateUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.GetMapping;

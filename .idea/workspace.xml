@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f831dd-0224-408f-89c3-4c6a2f065b75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/controller/AnimeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/util/DateUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="90f831dd-0224-408f-89c3-4c6a2f065b75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
     <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,18 +43,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Workspace/springboot2-essentials/first-project/src/main/java/com/mmacedo/springboot2",
+    "last_opened_file_path": "C:/Workspace/springboot2-essentials/springboot2-essentials",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Workspace\springboot2-essentials\first-project\src\main\java\com\mmacedo\springboot2" />
-    </key>
-  </component>
   <component name="RunManager" selected="Application.com.mmacedo.springboot2.ApplicationStart">
     <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.springboot2.start.ApplicationStart" />
