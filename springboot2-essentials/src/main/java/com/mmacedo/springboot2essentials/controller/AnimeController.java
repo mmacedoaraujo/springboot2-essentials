@@ -6,6 +6,8 @@ import com.mmacedo.springboot2essentials.requests.AnimePostRequestBody;
 import com.mmacedo.springboot2essentials.requests.AnimePutRequestBody;
 import com.mmacedo.springboot2essentials.service.AnimeService;
 import com.mmacedo.springboot2essentials.util.DateUtil;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
@@ -20,12 +22,11 @@ import java.util.List;
 @Log4j2
 @RequiredArgsConstructor
 public class AnimeController {
-    private final DateUtil dateUtil;
+
     private final AnimeService animeService;
 
     @GetMapping
     public ResponseEntity<List<Anime>> list() {
-        log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
         return new ResponseEntity<>(animeService.listAll(), HttpStatus.OK);
     }
     @GetMapping(value = "/{id}")

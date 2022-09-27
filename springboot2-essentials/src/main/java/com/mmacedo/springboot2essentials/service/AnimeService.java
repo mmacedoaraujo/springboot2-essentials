@@ -1,6 +1,7 @@
 package com.mmacedo.springboot2essentials.service;
 
 import com.mmacedo.springboot2essentials.domain.Anime;
+import com.mmacedo.springboot2essentials.mapper.AnimeMapper;
 import com.mmacedo.springboot2essentials.repository.AnimeRepository;
 import com.mmacedo.springboot2essentials.requests.AnimePostRequestBody;
 import com.mmacedo.springboot2essentials.requests.AnimePutRequestBody;
@@ -26,7 +27,7 @@ public class AnimeService {
     }
 
     public Anime save(AnimePostRequestBody animePostRequestBody) {
-        return animeRepository.save(Anime.builder().name(animePostRequestBody.getName()).build());
+        return animeRepository.save(AnimeMapper.INSTANCE.toAnime(animePostRequestBody));
     }
 
     public void delete(Long id) {
@@ -35,8 +36,7 @@ public class AnimeService {
 
     public void replace(AnimePutRequestBody animePutRequestBody) {
         findByIdOrThrowBadRequestException(animePutRequestBody.getId());
-        Anime anime = Anime.builder().id(animePutRequestBody.getId()).name(animePutRequestBody.getName()).build();
-        animeRepository.save(anime);
+        animeRepository.save(AnimeMapper.INSTANCE.toAnime(animePutRequestBody));
 
     }
 }
