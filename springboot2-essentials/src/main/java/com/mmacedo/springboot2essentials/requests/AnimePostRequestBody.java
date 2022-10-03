@@ -1,7 +1,6 @@
 package com.mmacedo.springboot2essentials.requests;
 
 import lombok.Data;
-import org.hibernate.validator.constraints.URL;
 
 import javax.validation.constraints.NotEmpty;
 
