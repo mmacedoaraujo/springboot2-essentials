@@ -3,6 +3,7 @@ package com.mmacedo.springboot2essentials.service;
 import com.mmacedo.springboot2essentials.domain.Anime;
 import com.mmacedo.springboot2essentials.exceptions.BadRequestException;
 import com.mmacedo.springboot2essentials.repository.AnimeRepository;
+import com.mmacedo.springboot2essentials.requests.AnimePutRequestBody;
 import com.mmacedo.springboot2essentials.util.AnimeCreator;
 import com.mmacedo.springboot2essentials.util.AnimePostRequestBodyCreator;
 import com.mmacedo.springboot2essentials.util.AnimePutRequestBodyCreator;
@@ -12,10 +13,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentMatchers;
-import org.mockito.BDDMockito;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
+import org.mockito.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
@@ -49,7 +47,7 @@ class AnimeServiceTest {
                 .thenReturn(List.of(AnimeCreator.createValidAnime()));
 
         BDDMockito.when(animeRepository.findById(ArgumentMatchers.anyLong()))
-                .thenReturn(Optional.ofNullable(AnimeCreator.createValidAnime()));
+                .thenReturn(Optional.of(AnimeCreator.createValidAnime()));
 
         BDDMockito.when(animeRepository.findByName(ArgumentMatchers.anyString()))
                 .thenReturn(List.of(AnimeCreator.createValidAnime()));
@@ -59,6 +57,7 @@ class AnimeServiceTest {
 
         BDDMockito.doNothing().when(animeRepository)
                 .delete(ArgumentMatchers.any(Anime.class));
+
     }
 
     @Test
@@ -175,7 +174,6 @@ class AnimeServiceTest {
     @Test
     @DisplayName("replace updates anime when successful")
     void replace_UpdatesAnime_WhenSuccessful() {
-        Anime validAnime = AnimeCreator.createValidAnime();
 
         Assertions.assertThatCode(() -> this.animeService.replace(AnimePutRequestBodyCreator.createAnimePutRequestBody()))
                 .doesNotThrowAnyException();

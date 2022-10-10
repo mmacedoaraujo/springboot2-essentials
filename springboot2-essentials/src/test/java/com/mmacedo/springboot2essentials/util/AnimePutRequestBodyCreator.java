@@ -6,8 +6,8 @@ public class AnimePutRequestBodyCreator {
 
     public static AnimePutRequestBody createAnimePutRequestBody() {
         return AnimePutRequestBody.builder()
-                .name(AnimeCreator.createValidUpdatedAnime().getName())
-                .id(AnimeCreator.createAnimeToBeSaved().getId())
+                .name(AnimeCreator.createValidAnime().getName())
+                .id(AnimeCreator.createValidAnime().getId())
                 .build();
     }
 }
