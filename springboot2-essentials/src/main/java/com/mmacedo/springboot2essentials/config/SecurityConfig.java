@@ -19,6 +19,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private final UserDetailsService userDetailsService;
+
     /**
      * BasicAuthenticationFilter
      * UsernamePasswordAuthenticationFilter
@@ -26,6 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
      * DefaultLogoutPageGeneratingFilter
      * FilterSecurityInterceptor
      * Authentication -> Authorization
+     *
      * @param http
      * @throws Exception
      */
@@ -33,6 +35,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeHttpRequests()
+                .antMatchers("animes/admin/**").hasRole("ADMIN")
+                .antMatchers("animes/**").hasRole("USER")
                 .anyRequest()
                 .authenticated()
                 .and()
@@ -44,11 +48,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
-        log.info("Password encoded {}", passwordEncoder.encode("password"));
-//        auth.inMemoryAuthentication()
-//                .withUser("Marcos")
-//                .password(passwordEncoder.encode("test"))
-//                .roles("ADMIN");
+        log.info("Password encoded {}", passwordEncoder.encode("test"));
+        auth.inMemoryAuthentication()
+                .withUser("marcos")
+                .password(passwordEncoder.encode("test"))
+                .roles("ADMIN");
         auth.userDetailsService(userDetailsService)
                 .passwordEncoder(passwordEncoder);
     }
