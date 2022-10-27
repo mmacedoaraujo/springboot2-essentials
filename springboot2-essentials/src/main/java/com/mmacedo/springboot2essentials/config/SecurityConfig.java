@@ -1,19 +1,24 @@
 package com.mmacedo.springboot2essentials.config;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 @Configuration
 @Log4j2
+@RequiredArgsConstructor
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    private final UserDetailsService userDetailsService;
     /**
      * BasicAuthenticationFilter
      * UsernamePasswordAuthenticationFilter
@@ -39,10 +44,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
-        log.info("Password encoded {}", passwordEncoder.encode("test"));
-        auth.inMemoryAuthentication()
-                .withUser("Marcos")
-                .password(passwordEncoder.encode("test"))
-                .roles("ADMIN");
+        log.info("Password encoded {}", passwordEncoder.encode("password"));
+//        auth.inMemoryAuthentication()
+//                .withUser("Marcos")
+//                .password(passwordEncoder.encode("test"))
+//                .roles("ADMIN");
+        auth.userDetailsService(userDetailsService)
+                .passwordEncoder(passwordEncoder);
     }
+
 }

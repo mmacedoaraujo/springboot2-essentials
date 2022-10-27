@@ -15,11 +15,13 @@ import javax.validation.constraints.NotEmpty;
 @AllArgsConstructor
 @Entity
 @Builder
-public class Anime {
+public class DevDojoUser {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotEmpty(message = "The anime name cannot be empty")
-    private String name;
+    private String username;
+    private String password;
+    private boolean active;
+    private String authorities;
 
 }
