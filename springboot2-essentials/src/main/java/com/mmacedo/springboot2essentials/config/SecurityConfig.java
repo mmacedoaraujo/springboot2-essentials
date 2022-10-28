@@ -4,10 +4,12 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
@@ -33,10 +35,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.csrf().disable()
-                .authorizeHttpRequests()
-                .antMatchers("animes/admin/**").hasRole("ADMIN")
-                .antMatchers("animes/**").hasRole("USER")
+                .authorizeRequests()
+                .antMatchers(HttpMethod.DELETE, "animes/admin/{Id}").hasAnyRole("ADMIN")
+                .antMatchers("animes/**").hasAnyRole("USER")
                 .anyRequest()
                 .authenticated()
                 .and()
@@ -50,9 +53,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
         log.info("Password encoded {}", passwordEncoder.encode("test"));
         auth.inMemoryAuthentication()
+                .withUser("devdojo")
+                .password(passwordEncoder.encode("password"))
+                .roles("USER", "ADMIN")
+                .and()
                 .withUser("marcos")
-                .password(passwordEncoder.encode("test"))
-                .roles("ADMIN");
+                .password(passwordEncoder.encode("password"))
+                .roles("USER");
         auth.userDetailsService(userDetailsService)
                 .passwordEncoder(passwordEncoder);
     }

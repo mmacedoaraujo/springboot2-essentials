@@ -19,6 +19,7 @@ public class DevDojoUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotEmpty(message = "The user's name cannot be empty")
     private String username;
     private String password;
     private boolean active;
