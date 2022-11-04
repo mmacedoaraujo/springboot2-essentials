@@ -23,10 +23,12 @@
 </ul>
 
 <h1> Objetivo </h1>
-<p>Com o objetivo de aprendizado esse projeto se trata de uma API Rest com todas as funcionalidades de um CRUD implementadas.</p>
+<p>Com o objetivo de aprendizado esse projeto se trata de uma API Rest com todas as funcionalidades de um CRUD implementadas. Gerenciamos uma entidade Anime que possui apenas id e nome para fins ilustrativos e à partir disso foram criados os seguintes endpoints: </p>
+<img src="https://user-images.githubusercontent.com/103322548/200079087-16e2f2a2-3614-4c7a-9400-6153293ed39b.png">
+<p>Nos métodos delete e by-id, adicionei features do Spring Security, sendo a requisição delete apenas efetuada por usuários do tipo ADMIN e o by-id foi usado autenticação no banco de dados.</p>
+<p></p>
 
-<h1>Como rodar a aplicação</h1>
-
+<h1>Como rodar a aplicação🛠️</h1> 
 
 <h3> Instalação </h3>
 <p>Clone o projeto com: </p>
