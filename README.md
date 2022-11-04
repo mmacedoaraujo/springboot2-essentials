@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/Status-Concluido-brightgreen">
+<img src="https://img.shields.io/badge/Status-Concluido-brightgreen"> <img src="https://img.shields.io/badge/README-Em Construção-yellow">
 <div align="center">
 <h5 align="center"> Tecnologias usadas no projeto </h5>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
