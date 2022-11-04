@@ -4,7 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90f831dd-0224-408f-89c3-4c6a2f065b75" name="Changes" comment="" />
+    <list default="true" id="54176474-0e62-4c30-89e6-37c05625437e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/springboot2-essentials.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/springboot2-essentials.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/main/java/com/mmacedo/springboot2/ApplicationStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/main/java/com/mmacedo/springboot2/controller/AnimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/main/java/com/mmacedo/springboot2/domain/Anime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/src/main/java/com/mmacedo/springboot2/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/classes/com/mmacedo/springboot2/ApplicationStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/classes/com/mmacedo/springboot2/controller/AnimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/classes/com/mmacedo/springboot2/domain/Anime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/classes/com/mmacedo/springboot2/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project/target/springboot2-essentials-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/Springboot2EssentialsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/client/SpringClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/configurer/DevDojoWebMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/controller/AnimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/domain/Anime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/domain/DevDojoUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/domain/DevDojoUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/exceptions/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/exceptions/BadRequestExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/exceptions/ExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/exceptions/ValidationExceptionDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/handler/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/mapper/AnimeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/repository/AnimeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/repository/DevDojoUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/requests/AnimePostRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/requests/AnimePutRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/service/AnimeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/service/MyUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/java/com/mmacedo/springboot2essentials/wrapper/PageableResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/Springboot2EssentialsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/controller/AnimeControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/integration/AnimeControllerIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/repository/AnimeRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/service/AnimeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/util/AnimeCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/util/AnimePostRequestBodyCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/java/com/mmacedo/springboot2essentials/util/AnimePutRequestBodyCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2-essentials/src/test/resources/logback-test.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,15 +118,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="master" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.23/spring-web-5.3.23.jar!/org/springframework/web/bind/MethodArgumentNotValidException.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseEntityExceptionHandler.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,12 +153,20 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="integration-tests" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="2FBVz6EtzJ7XVib45zPnEXC4GZU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2FPPz4YkbCGnLYEFUg8kzqOfk8y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,20 +175,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Workspace/springboot2-essentials/springboot2-essentials",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Workspace/springboot2-essentials",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.mmacedo.springboot2.ApplicationStart">
-    <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.springboot2.start.ApplicationStart" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mmacedo.springboot2essentials.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mmacedo.springboot2essentials.service" />
+      <recent name="com.mmacedo.springboot2essentials.controller" />
+      <recent name="com.mmacedo.springboot2essentials.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mmacedo.springboot2essentials.repository" />
+      <recent name="com.mmacedo.springboot2essentials.domain" />
+      <recent name="com.mmacedo.springboot2essentials.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Springboot2EssentialsApplication">
+    <configuration name="Springboot2EssentialsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2essentials.Springboot2EssentialsApplication" />
       <module name="springboot2-essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.springboot2.start.*" />
+          <option name="PATTERN" value="com.mmacedo.springboot2essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,40 +213,118 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.mmacedo.springboot2.ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2.ApplicationStart" />
+    <configuration name="AnimeControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot2-essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mmacedo.springboot2.*" />
+          <option name="PATTERN" value="com.mmacedo.springboot2essentials.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mmacedo.springboot2essentials.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2essentials.integration.AnimeControllerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimeControllerIT.delete_DeletesAnime_WhenSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmacedo.springboot2essentials.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mmacedo.springboot2essentials.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2essentials.integration.AnimeControllerIT" />
+      <option name="METHOD_NAME" value="delete_DeletesAnime_WhenSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimeControllerIT.list_ReturnsListOfAnimeInsidePageObject_WhenSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmacedo.springboot2essentials.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mmacedo.springboot2essentials.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2essentials.integration.AnimeControllerIT" />
+      <option name="METHOD_NAME" value="list_ReturnsListOfAnimeInsidePageObject_WhenSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimeControllerIT.replace_UpdatesAnime_WhenSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot2-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmacedo.springboot2essentials.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mmacedo.springboot2essentials.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.mmacedo.springboot2essentials.integration.AnimeControllerIT" />
+      <option name="METHOD_NAME" value="replace_UpdatesAnime_WhenSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.mmacedo.springboot2.ApplicationStart" />
-        <item itemvalue="Application.ApplicationStart" />
+        <item itemvalue="Application.Springboot2EssentialsApplication" />
+        <item itemvalue="JUnit.AnimeControllerIT" />
+        <item itemvalue="JUnit.AnimeControllerIT.list_ReturnsListOfAnimeInsidePageObject_WhenSuccessful" />
+        <item itemvalue="JUnit.AnimeControllerIT.replace_UpdatesAnime_WhenSuccessful" />
+        <item itemvalue="JUnit.AnimeControllerIT.delete_DeletesAnime_WhenSuccessful" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90f831dd-0224-408f-89c3-4c6a2f065b75" name="Changes" comment="" />
-      <created>1663965726454</created>
+      <changelist id="54176474-0e62-4c30-89e6-37c05625437e" name="Changes" comment="" />
+      <created>1664391005897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663965726454</updated>
+      <updated>1664391005897</updated>
     </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="5ce17f69-af9e-4b40-aa29-361542a31b1b">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Workspace/springboot2-essentials/springboot2-essentials" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -105,9 +332,36 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5ce17f69-af9e-4b40-aa29-361542a31b1b" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/mmacedo/springboot2essentials/integration/AnimeControllerIT.java</url>
+          <line>210</line>
+          <properties class="com.mmacedo.springboot2essentials.integration.AnimeControllerIT" method="replace_UpdatesAnime_WhenSuccessful">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.http.ResponseEntity" memberName="body" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot2_essentials$All_in_springboot2_essentials.ic" NAME="All in springboot2-essentials Coverage Results" MODIFIED="1665430319202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/springboot2_essentials$AnimeControllerTest.ic" NAME="AnimeControllerTest Coverage Results" MODIFIED="1665240809607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mmacedo.springboot2essentials.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>
