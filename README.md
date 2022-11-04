@@ -1,16 +1,29 @@
 <img src="https://img.shields.io/badge/Status-Concluido-brightgreen">
+<div align="center">
+<h5 align="center"> Tecnologias usadas no projeto </h5>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Intellij-000000?style=flat-square&logo=Intellij IDEA&logoColor=white"/>
+<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=Apache Maven&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat-square&logo=Spring Security&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/>
+</div>
 <h1> Spring Boot Animes API </h1>
-
-<h4>Api construída no curso Spring Boot 2 Essentials da DevDojo, com finalidade de explorar os principais tópicos envolvendo desenvolvimento de APIs com Spring Boot, como:</h4>
+<p>Api construída ao longo do curso Spring Boot 2 Essentials da DevDojo, com finalidade de explorar os principais tópicos envolvendo desenvolvimento de APIs com Spring, como:</p>
 <ul>
 <li>Criação de endpoints</li>
 <li>Spring Data JPA</li>
 <li>Spring Security</li>
-<li>Mapeamento objeto relacional</li>
 <li>Tratamento de exceções</li>
 <li>Testes unitários</li>
 <li>Testes de integração</li>
 </ul>
+
+<h1> Objetivo </h1>
+<p>Com o objetivo de aprendizado esse projeto se trata de uma API Rest com todas as funcionalidades de um CRUD implementadas.</p>
 
 <h1>Como rodar a aplicação</h1>
 
@@ -26,13 +39,13 @@
 
 <h3> Banco de dados </h3>
 
-<p>Caso possua o docker instalado no seu sistema operacional, bastar abrir um terminal na pasta raiz do projeto e digitar: </p>
+<p>Caso possua o <a href="https://www.docker.com/">docker</a> instalado no seu sistema operacional, bastar abrir um terminal na pasta raiz do projeto e digitar: </p>
 
 
 ```
  docker compose up
 ```
-<p>e um container docker com uma imagem MySQL será criado, expondo a porta 3307. Caso deseje alterar as configurações do banco de dados, basta acessar o arquivo application.yml em: </p>
+<p>Um container docker com uma imagem MySQL será criado, optei por configurar a porta 3307 para não haver interferência com qualquer outra instância do MySQL que possa estar rodando. Caso deseje alterar as configurações do banco de dados, basta acessar o arquivo application.yml em: </p>
 
 ```
  src/main/resources/application.yml
@@ -55,8 +68,7 @@ senha: password
 
 <p>Pronto, agora você tem acesso à interface do Swagger para testar os métodos de requisição da API!</p>
 
-
-<h1 align="center"> Dependências utilizadas no projeto </h1>
+<h1> Dependências utilizadas no projeto </h1>
 <ul>
 <li>Spring Boot Starter Validation</li>
 <li>SpringDoc OpenAPI UI</li>
